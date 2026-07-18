@@ -37,10 +37,11 @@ body{
     background-color: white;
     border-radius: 30px;
     padding-bottom: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgb(214, 198, 150) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .card img{
+    
     width: 100%;
 }
 

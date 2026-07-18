@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoSuggest</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .gear, .status { 
+            position: fixed; top: 20px; 
+        }
+
+        .gear  {left: 20px;  }
+        .status { right: 20px; }
+
+        .logo{
+            margin-top: 80px;
+            ;
+        }
+
+        .being{
+            color: purple;
+        }
+
+        .tag-line{
+            color:lightgray;
+        }
+        .search{
+            width: 80%;
+            border-radius: 25px;;
+            padding: 10px 30px 10px 25px;
+        }
+        .lens{
+            position: relative;
+            left: 30px;
+        }
+
+        .search-suggestions {
+            width: 80%;
+            margin: 8px 0 0;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            text-align: left;
+            margin: 0px auto;
+        }
+        .suggestion {
+            padding: 10px 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="gear">&#x2699</span>  
+        <span class="status">&#x2022  online | &#x1F552 - ms </span>
+    </div>
+
+    <div>
+        <h1 class="logo"><span class="being">Being</span>Infinity</h1>
+        <p class="tag-line"> One million phrases. Four algorithms. Prefix Based Auto Suggest.</p>
+        <span class="lens">&#128269;</span>
+        <input type="text" name="" class="search" placeholder="Start typing to search phrases...">
+            <div class="search-suggestions">
+                <!--<div class="suggestion"> Cyber security </div>
+                <div class="suggestion"> Artificial Intelligence and Data Science </div> -->
+            </div>
+    </div>
+    <script>
+        function getSearchSuggestions(){
+            
+        }
+    </script>
+</body>
+</html>
